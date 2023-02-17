@@ -1,7 +1,7 @@
+#include <stdio.h>
 #include<unistd.h>
 /**
- * main - is entry point
- *
+ * main - Entry point
  * Return: 1, if succesful
  */
 int main(void)
