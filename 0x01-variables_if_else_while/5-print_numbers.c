@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - to print all single numbers of base 10
  *
@@ -7,10 +6,8 @@
  */
 int main(void)
 {
-	int x;
-	/to print all single numbers of base 10,loop through them/
-	for (x = 0 ; x < 10 ; x++)
-	printf("%d", x);
-	printf("\n");
+	for (a=0; a<=10; a++)
+		putchar(a);
+	putchar('\n');
 	return (0);
 }
