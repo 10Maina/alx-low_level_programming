@@ -2,8 +2,10 @@
 
 /**
  * main - check the code for uppercase character
- *
- * Retiurn: Always 0
+ *@c: The number to be checked
+ * Return: Always 0
+ */
+
 int _isupper(int c)
 {
     if (c >= 'A' && c <= 'Z')
