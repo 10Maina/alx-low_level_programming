@@ -18,7 +18,7 @@ largest = a;
 }
 else if (b > c)
 {
-argest = b;
+largest = b;
 }
 else
 {
