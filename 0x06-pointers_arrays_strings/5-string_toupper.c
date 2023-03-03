@@ -20,5 +20,5 @@ char *string_toupper(char *str)
 			str[i] -= 'a' - 'A';
 		i++;
 	}
-	return(str);
+	return (str);
 }
